@@ -46,5 +46,11 @@
 --- 
 
 ## 🔖 [Events]
-### `document` 의 존재 이유
+### ✔️  `document` 의 존재 이유
 -> **HTML** 에서 JS파일을 load 했기 때문
+<br><br>
+
+
+### ✔️ `addEventListener` 에 쓸 수 있는 event
+-> `console.dir` 에서 앞에 `on` 이 붙은 프로퍼티가 이벤트요소
+-> `addEventListener` 에 쓸때는 `on`을 빼고 쓰면 된다.
