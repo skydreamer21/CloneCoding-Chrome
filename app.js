@@ -22,7 +22,9 @@ console.log(firstItem.style);
 console.log(firstItem.style.color = "blue"); 
 */
 
-title.addEventListener("hover", handleTitleClick);
+title.addEventListener("click", handleTitleClick);
+title.addEventListener("mouseenter", handleMouseEnter)
+title.addEventListener("mouseleave", handleMouseLeave);
 
 function handleTitleClick() {
     const NUM_OF_COLORS = 4;
@@ -40,4 +42,14 @@ function handleTitleClick() {
     const currentColorIdx = colorMap.get(title.style.color);
     const nextColorIdx = (currentColorIdx + 1) % NUM_OF_COLORS;
     title.style.color = colors[nextColorIdx];
+}
+
+function handleMouseEnter() {
+    title.style.fontSize = "3rem";
+    console.log("mouse is here!");
+}
+
+function handleMouseLeave() {
+    title.style.fontSize = "2rem";
+    console.log("mouse escaped!");
 }
