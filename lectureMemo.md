@@ -54,3 +54,13 @@
 ### ✔️ `addEventListener` 에 쓸 수 있는 event
 -> `console.dir` 에서 앞에 `on` 이 붙은 프로퍼티가 이벤트요소
 -> `addEventListener` 에 쓸때는 `on`을 빼고 쓰면 된다.
+
+### ✔️ `document` 로 접근할 수 있는 요소
+- `doucument.head`
+- `document.body`
+- `document.title`
+❗ `document.meta` 는 접근불가.. ?
+
+## 🔖 [CSS in Javascript part Two]
+### ✔️ JS에서 CSS요소를 건드리는 일은? 
+- [방법1] 원하는 CSS가 있는 클래스를 전달하기!

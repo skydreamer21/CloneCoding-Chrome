@@ -22,9 +22,14 @@ console.log(firstItem.style);
 console.log(firstItem.style.color = "blue"); 
 */
 
-title.addEventListener("click", handleTitleClick);
+// title.addEventListener("click", handleTitleClick);
+title.onclick = handleTitleClick;
 title.addEventListener("mouseenter", handleMouseEnter)
 title.addEventListener("mouseleave", handleMouseLeave);
+window.addEventListener("resize", handleWindowResize);
+window.addEventListener("copy", handleWindowCopy);
+window.addEventListener("offline", handleWindowOffline);
+window.addEventListener("online", handleWindowOnline);
 
 function handleTitleClick() {
     const NUM_OF_COLORS = 4;
@@ -52,4 +57,22 @@ function handleMouseEnter() {
 function handleMouseLeave() {
     title.style.fontSize = "2rem";
     console.log("mouse escaped!");
+}
+
+function handleWindowResize() {
+    document.body.style.backgroundColor = "tomato";
+}
+
+function handleWindowCopy() {
+    alert("copier!");
+}
+
+function handleWindowOffline() {
+    alert("SOS no WIFI!");
+    console.log("offline!");
+}
+
+function handleWindowOnline() {
+    alert("ALL GOOD!");
+    console.log("online!");
 }

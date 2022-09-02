@@ -35,3 +35,14 @@ XML문서에서 쓰는 태그의 사전
 - 참고링크 목록 
     1. [JavaScript - 이벤트 버블링과 캡처링, 둘의 방지법](https://cbw1030.tistory.com/301?category=1142019)
     2. [버블링과 캡처링](https://ko.javascript.info/bubbling-and-capturing)
+
+### 📔 개발자 도구의 No throttling
+- 참고링크 목록 
+    1. [개발자 도구 > Network > 'No throttling'의 의미?](https://unit-15.tistory.com/85)
+
+### 📔 ClassList toggle multiple Class
+- 참고링크 목록 
+    1. [Vanilla JavaScript: Is there a way to toggle multiple CSS-classes in one statement?](https://stackoverflow.com/questions/36544762/vanilla-javascript-is-there-a-way-to-toggle-multiple-css-classes-in-one-stateme)
+
+- 요약
+  - 여러 방법이 있지만 `map()` 을 쓰자!
