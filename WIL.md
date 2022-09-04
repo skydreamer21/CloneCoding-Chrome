@@ -56,3 +56,18 @@ XML문서에서 쓰는 태그의 사전
     1. [Event Object(이벤트 객체)](https://cheonmro.github.io/2018/09/04/event-object/)
 - submitEventObject 예시 
 ![submitEventObject](./image/memo/submitEventObject.png)
+
+### 📔 display:none 과 transition
+- 참고링크 목록 
+    1. [display none이 transition이 안먹히는 이유](https://velog.io/@dev-tinkerbell/display-none%EC%9D%B4-transition%EC%9D%B4-%EC%95%88%EB%A8%B9%ED%9E%88%EB%8A%94-%EC%9D%B4%EC%9C%A0)
+    2. [css display none 애니메이션  오류 수정하기](https://songsong.dev/entry/css-display-none-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0)
+- 요약
+  1. transition은 before 와 after 가 수치적인 값으로 되어 있어야 하는데 display:none 은 아예 수치가 없기 때문에 transition을 할 수가 없음.
+  2. display 이외에 수치적용을 할 수 있는 값을 주어서 display는 바꾸되 동시에 opacitiy와 같은 수치도 바뀌는 모습을 보여주는 방식으로 해결할 수 있다.
+  3. transition이 비교할 초기값이 없어 애니메이션이 불가능 한 반면에 키프레임 애니메이션은 초기값을 유저가 직접 할당하고 실행시키기 때문에 동작이 가능하다. (1번링크)
+    
+
+### 📔 display:none 과 transition
+- 참고링크 목록 
+    1. [display: none에 애니메이션 추가하기](https://uxdev.org/entry/display-none%EC%97%90-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0)
+    2. [CSS Animation 속성](https://brunch.co.kr/@99-life/3)
