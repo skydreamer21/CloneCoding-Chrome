@@ -60,7 +60,28 @@
 - `document.body`
 - `document.title`
 ❗ `document.meta` 는 접근불가.. ?
+<br><br>
+---
+<br>
 
 ## 🔖 [CSS in Javascript part Two]
 ### ✔️ JS에서 CSS요소를 건드리는 일은? 
 - [방법1] 원하는 CSS가 있는 클래스를 전달하기!
+<br><br>
+  
+## 🔖 #4.0 [Input Values]
+### ✔️ querySelector를 통한 검색
+- document 또는 하나의 element를 통해서 검색 가능
+```javascript
+const loginForm = document.querySelector("#login-form");
+const loginInput = loginForm.querySeletor("input");
+```
+
+### ✔️ [HTML] input 이 할 수 있는 일
+- HTML의 `<input>`에서 할 수 있는 일은 굉장히 많다.
+  - `required` `maxlength` 등등
+  <br>=> 정리가 필요하다!!
+
+### ✔️ [HTML] form
+- `<form>` 안에 있는 `<input>` 태그 여야 유효성 검사를 할 수있다.
+- `<input>` 안에 있는 `<button>`이나 `<input>` type이 `submit` 인 버튼을 누르면 작성한 `form` 이 submit된다.
