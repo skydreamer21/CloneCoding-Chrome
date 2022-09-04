@@ -68,6 +68,8 @@
 ### ✔️ JS에서 CSS요소를 건드리는 일은? 
 - [방법1] 원하는 CSS가 있는 클래스를 전달하기!
 <br><br>
+---
+<br>
   
 ## 🔖 #4.0 [Input Values]
 ### ✔️ querySelector를 통한 검색
@@ -85,3 +87,14 @@ const loginInput = loginForm.querySeletor("input");
 ### ✔️ [HTML] form
 - `<form>` 안에 있는 `<input>` 태그 여야 유효성 검사를 할 수있다.
 - `<input>` 안에 있는 `<button>`이나 `<input>` type이 `submit` 인 버튼을 누르면 작성한 `form` 이 submit된다.
+<br><br>
+---
+<br>
+
+## 🔖 #4.2 [Events]
+### ✔️ `addEventListener`
+- event가 발생할 때 등록된 handler 함수를 호출하는데 **파라미터로 정보를 전달한 상태**로 호출한다!
+  - 그 정보는 일어난 Event에 대한 중요한 정보들을 담고 있다. 
+
+### ✔️ `EventInstance.preventDefault()`
+- 이벤트가 일어났을 때, Default로 실행되는 동작을 막아준다.

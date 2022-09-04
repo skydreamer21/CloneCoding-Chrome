@@ -47,6 +47,12 @@ XML문서에서 쓰는 태그의 사전
 - 요약
   - 여러 방법이 있지만 `map()` 을 쓰자!
 
-### 📔 <form>
+### 📔 `<form>`
 - 참고링크 목록 
     1. [HTML form 의 이해](https://www.nextree.co.kr/p8428/)
+
+### 📔 Event 객체
+- 참고링크 목록 
+    1. [Event Object(이벤트 객체)](https://cheonmro.github.io/2018/09/04/event-object/)
+- submitEventObject 예시 
+![submitEventObject](./image/memo/submitEventObject.png)
