@@ -98,3 +98,9 @@ const loginInput = loginForm.querySeletor("input");
 
 ### ✔️ `EventInstance.preventDefault()`
 - 이벤트가 일어났을 때, Default로 실행되는 동작을 막아준다.
+
+## 🔖 #4.5 [Saving Username]
+### ✔️ `localStorage`
+- 나중에 가져다 쓸 수 있도록 브라우저에 저장할 수 있게 해준다.
+- 경로 application -> Local Storage
+    ![goToLocalStorage](./image/memo/application_LocalStorage.png)

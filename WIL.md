@@ -71,3 +71,14 @@ XML문서에서 쓰는 태그의 사전
 - 참고링크 목록 
     1. [display: none에 애니메이션 추가하기](https://uxdev.org/entry/display-none%EC%97%90-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0)
     2. [CSS Animation 속성](https://brunch.co.kr/@99-life/3)
+   
+### 📔 API
+- 참고링크 목록 
+    1. [API란 무엇인가요?](https://aws.amazon.com/ko/what-is/api/)
+
+### 📔 localStorage API
+- 참고링크 목록 
+    1. [`Window.localStorage`](https://developer.mozilla.org/ko/docs/Web/API/Window/localStorage)
+    2. [localStorage와 sessionStorage](https://ko.javascript.info/localstorage)
+    3. [로컬스토리지의 데이터 영속성](https://codepathfinder.com/entry/javascript-%EC%9B%B9-%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80localStorage-sessionStorage-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95)
+    4. [cookie vs localStorage](https://blog.shahednasser.com/localstorage-vs-cookies-whats-the-difference/)
