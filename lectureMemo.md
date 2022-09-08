@@ -104,3 +104,7 @@ const loginInput = loginForm.querySeletor("input");
 - 나중에 가져다 쓸 수 있도록 브라우저에 저장할 수 있게 해준다.
 - 경로 application -> Local Storage
     ![goToLocalStorage](./image/memo/application_LocalStorage.png)
+---
+## 🔖 #6.0 [Background]
+### ✔️ `createElement()`
+- html 요소를 만들 수 있는 함수
