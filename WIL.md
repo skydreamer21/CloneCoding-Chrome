@@ -82,3 +82,21 @@ XML문서에서 쓰는 태그의 사전
     2. [localStorage와 sessionStorage](https://ko.javascript.info/localstorage)
     3. [로컬스토리지의 데이터 영속성](https://codepathfinder.com/entry/javascript-%EC%9B%B9-%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80localStorage-sessionStorage-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95)
     4. [cookie vs localStorage](https://blog.shahednasser.com/localstorage-vs-cookies-whats-the-difference/)
+
+### 📔 web에서 로컬파일 읽기
+- 참고링크 목록 
+    1. [How to read a local text file in the browser?](https://stackoverflow.com/questions/14446447/how-to-read-a-local-text-file-in-the-browser)
+
+### 📔 `XMLHttpRequest()` 사용법
+- 참고링크 목록 
+    1. [Javascript - XMLHttpRequest 사용하기](https://7942yongdae.tistory.com/67)
+
+- 서버와 데이터를 주고받기 위해 사용하는 Web API
+
+### 📔 `map()` 사용법
+- 참고링크 목록 
+    1. [[Javascript] map함수](https://velog.io/@daybreak/Javascript-map%ED%95%A8%EC%88%98)
+
+### 📔 Javascript 모듈링
+- 참고링크 목록 
+    1. [[JavaScript] Web, Node.js다른 JS파일에서 요소 가져오기 / 모듈화하기 및 원리](https://velog.io/@grinding_hannah/JavaScript-Import-Export%EB%A1%9C-%EB%AA%A8%EB%93%88%ED%99%94%ED%95%98%EA%B8%B0)

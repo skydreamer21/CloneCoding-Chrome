@@ -36,3 +36,6 @@
 ## 🔖 #5.2 [PadStart]
 ### **🎯 `padStart` 를 통해 시계 항상 2자리로 표시
 
+## 🔖 #6.0 [Quotes] - Today's Quote
+### **🎯 quote와 author가 있는 Object의 배열을 가지고 `Math.random()`을 이용해 랜덤한 명언 보여주기
+
