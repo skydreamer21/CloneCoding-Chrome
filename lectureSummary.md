@@ -23,3 +23,6 @@
 
 ## 🔖 #4.5 [Saving Username]
 ### **🎯 username 을 저장해서 다음에 왔을 때도 또 입력을 받지 않도록 한다. -> Remember!
+
+## 🔖 #5.1 [Timeouts and Dates]
+### **🎯 `Interval`  `setTimeout` 과 `Date` 를 활용해 시계 표시
