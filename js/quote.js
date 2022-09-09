@@ -1,4 +1,4 @@
-import { readTxt } from "./util.js"
+import { readByTxt } from "./util.js"
 
 /**
  * 
@@ -18,7 +18,7 @@ function quoteParser(stringOfQuotes) {
     return quotes;
 }
 
-const allQuotes = readTxt("../data/quotes.txt");
+const allQuotes = readByTxt("../data/quotes.txt");
 const quotes = quoteParser(allQuotes);
 
 const quote = document.querySelector("#quote span:first-child");
