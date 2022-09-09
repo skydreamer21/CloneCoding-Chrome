@@ -11,8 +11,8 @@ function getBackgroundImgList(dirPathInfo) {
 
 const dirPath = "../image/background/"
 const dirPathInfo = readByTxt(dirPath);
+console.log(dirPathInfo);
 const bgList = getBackgroundImgList(dirPathInfo);
-console.log(bgList);
 
 const numOfBg = bgList.length;
 const randomBgIndex = Math.floor(Math.random()*numOfBg);
