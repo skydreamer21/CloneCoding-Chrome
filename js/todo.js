@@ -12,15 +12,18 @@ function saveTodo() {
 
 function deleteTodo(event) {
     const li = event.target.parentElement;
+    todos = todos.filter((todo) => todo.id !== parseInt(li.id));
     li.remove();
+    saveTodo();
 }
 
-function paintTodo(todo) {
+function paintTodo(todoObj) {
     const li = document.createElement("li");
     const span = document.createElement("span");
     const deleteButton = document.createElement("button");
-    span.innerText = todo;
+    span.innerText = todoObj.todo;
     deleteButton.innerText = "❌";
+    li.id = todoObj.id;
     li.appendChild(span);
     li.appendChild(deleteButton);
     deleteButton.addEventListener("click", deleteTodo);
@@ -29,10 +32,13 @@ function paintTodo(todo) {
 
 function handleSubmitTodoList(event) {
     event.preventDefault();
-    const todo = todoInput.value;
+    const todoObj = {
+        todo: todoInput.value,
+        id: Date.now()
+    }
     todoInput.value = "";
-    todos.push(todo);
-    paintTodo(todo);
+    todos.push(todoObj);
+    paintTodo(todoObj);
     saveTodo();
 }
 
