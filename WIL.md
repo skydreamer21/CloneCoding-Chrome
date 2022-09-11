@@ -107,3 +107,17 @@ XML문서에서 쓰는 태그의 사전
 
 - 요약
 `getEventListeners()` 로 확인
+
+### 📔 [Javascript] `navigator` 객체
+- 참고링크 목록 
+    1. [[JS강좌] 17강 BOM - navigator객체 - 오쌤의 니가스터디](https://ossam5.tistory.com/228)  -> 추가 BOM에 관한 내용
+
+- 요약
+`navigator` 객체는 사용자의 브라우저 정보를 가져오는데 사용한다.
+
+### 📔 [Javascript] `Response.json()`
+- 참고링크 목록 
+    1. [Response.json()](https://developer.mozilla.org/en-US/docs/Web/API/Response/json)
+
+- 요약
+`Respons` 객체의 `Promise` 를 반환하는 메서드로 `Response` resolve 시 객체의 body 부분을 파싱해서 json 형식으로 반환

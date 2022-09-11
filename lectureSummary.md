@@ -56,3 +56,8 @@
 ---
 ## 🔖 #7.8 [Deleteing ToDos part Three]
 ### **🎯 7.6, 7.7 을 활용해서 Delete 기능 완성
+---
+
+# #8 Weather
+## 🔖 #8.0 [Geolocation]
+### **🎯 `navigator.geolocation.getCurrentPosition` 활용해 위치받아오기
