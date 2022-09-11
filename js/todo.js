@@ -2,10 +2,12 @@ const todoForm = document.querySelector("#todo-form");
 const todoInput = todoForm.querySelector("input");
 const todoUl = document.querySelector("#todo");
 
-const todos = [];
+const TODO_KEY = "todo";
+let todos = [];
+
 
 function saveTodo() {
-    localStorage.setItem("todo", JSON.stringify(todos));
+    localStorage.setItem(TODO_KEY, JSON.stringify(todos));
 }
 
 function deleteTodo(event) {
@@ -35,3 +37,20 @@ function handleSubmitTodoList(event) {
 }
 
 todoForm.addEventListener("submit", handleSubmitTodoList);
+
+if (localStorage.getItem("username") === null) {
+    console.log("로그인이 안되어있음")
+    todoForm.classList.add("hidden");
+    todoUl.classList.add("hidden");
+}
+
+const savedTodos = localStorage.getItem(TODO_KEY);
+console.log(savedTodos);
+if (savedTodos) {
+    todos = JSON.parse(savedTodos);
+    todos.forEach(paintTodo);  
+}
+
+/* if (localStorage.) {
+
+} */
