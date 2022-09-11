@@ -34,3 +34,25 @@
 ---
 ## 🔖 #7.2 [Deletimg ToDos]
 ### **🎯 버튼을 눌렀을 때 todoList 제거하는 기능 
+---
+## 🔖 #7.4 [Loading ToDos part One]
+### **🎯 `localStorage`에서 todos 불러오기
+- 불러온 각각의 아이템들에 대해서 함수 실행 구조 만들기
+- localStorage가 비어있다면..?
+---
+## 🔖 #7.5 [Loading ToDos part Two]
+### **🎯 `localStorage`에서 todos 불러오기
+- `localStorage`에 이미 저장된 todoList를 화면에 표시
+- 기능을 구현하고 제대로 동작하는지 확인 (삭제 과정 제외)
+
+### 내가 추가한 기능
+- 로그인이 되어있지 않을 시 todoList 표시하지 않음
+---
+## 🔖 #7.6 [Deleteing ToDos part One]
+### **🎯 `localStorage`에 todo를 저장할 때, 고유 id를 추가해서 저장하기
+---
+## 🔖 #7.7 [Deleteing ToDos part Two]
+### **🎯 `filter` 함수를 사용해서 todo 배열에서 원하는 요소 지우기
+---
+## 🔖 #7.8 [Deleteing ToDos part Three]
+### **🎯 7.6, 7.7 을 활용해서 Delete 기능 완성

@@ -100,3 +100,10 @@ XML문서에서 쓰는 태그의 사전
 ### 📔 Javascript 모듈링
 - 참고링크 목록 
     1. [[JavaScript] Web, Node.js다른 JS파일에서 요소 가져오기 / 모듈화하기 및 원리](https://velog.io/@grinding_hannah/JavaScript-Import-Export%EB%A1%9C-%EB%AA%A8%EB%93%88%ED%99%94%ED%95%98%EA%B8%B0)
+
+### 📔 [Javascript] 등록된 이벤트 리스너 확인
+- 참고링크 목록 
+    1. [EventListner 확인](https://coffeeandcakeandnewjeong.tistory.com/84)
+
+- 요약
+`getEventListeners()` 로 확인
